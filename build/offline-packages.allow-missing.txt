@@ -1,0 +1,9 @@
+# Packages that are not in the configured pacman repos (AUR/custom).
+# These are kept as-is without resolving dependencies.
+yay
+nebula-hypr
+nebula-keybind-menu
+nebula-oh-my-zsh
+nebula-vimix-grub
+nebula-luks
+nebula-splash

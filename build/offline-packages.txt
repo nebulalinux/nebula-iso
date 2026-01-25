@@ -1,0 +1,136 @@
+# Packages cached into the ISO for offline pacstrap fallback.
+# Optional: place nebula-repo.gpg in repo root or /opt/nebula-repo for offline key bundling
+
+base
+linux
+linux-firmware
+linux-firmware-amdgpu
+linux-firmware-atheros
+linux-firmware-broadcom
+linux-firmware-cirrus
+linux-firmware-intel
+linux-firmware-mediatek
+linux-firmware-nvidia
+linux-firmware-other
+linux-firmware-radeon
+linux-firmware-realtek
+linux-firmware-whence
+gcc
+grub
+efibootmgr
+zram-generator
+sudo
+btrfs-progs
+
+### Other
+plymouth
+
+# Safe GPU/CPU baseline (uncomment as needed)
+mesa
+vulkan-radeon
+vulkan-intel
+vulkan-nouveau
+xf86-video-amdgpu
+xf86-video-ati
+xf86-video-nouveau
+intel-media-driver
+libva-intel-driver
+intel-ucode
+amd-ucode
+libva-nvidia-driver
+nvidia-open-dkms
+nvidia-dkms
+
+# Base packages
+dunst
+grim
+slurp
+ripgrep
+gnome-themes-extra
+qt5-multimedia
+qt6-multimedia
+
+# Audio
+pipewire
+pipewire-alsa
+pipewire-audio
+pipewire-jack
+pipewire-pulse
+
+# Shell
+zsh
+
+# Bluetooth / Network
+networkmanager
+network-manager-applet
+bluez
+bluez-utils
+
+# Editors
+vim
+neovim
+
+# Tools
+htop
+fastfetch
+exa
+
+# AUR (nebula repo)
+yay
+
+# Nautilus
+nautilus
+gvfs
+gvfs-mtp
+
+# Fonts
+noto-fonts
+noto-fonts-emoji
+ttf-cascadia-code-nerd
+ttf-cascadia-mono-nerd
+ttf-nerd-fonts-symbols
+
+# Wayland and Hyprland
+wayland
+wayland-protocols
+qt5-wayland
+qt6-wayland
+rofi
+jq
+
+hyprland
+hyprlock
+hyprpicker
+hyprpaper
+hypridle
+hyprland-guiutils
+hyprsunset
+hyprutils
+hyprtoolkit
+nebula-hypr
+
+nebula-keybind-menu
+nebula-oh-my-zsh
+nebula-vimix-grub
+nebula-splash
+nebula-luks
+
+xdg-desktop-portal
+xdg-desktop-portal-hyprland
+xdg-desktop-portal-gtk
+xdg-utils
+xdg-user-dirs
+
+polkit-gnome
+wl-clipboard
+waybar
+sddm
+
+# Terminal
+foot
+kitty
+alacritty
+
+# Node
+nvm
+pnpm

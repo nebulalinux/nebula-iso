@@ -1,4 +1,5 @@
 abseil-cpp
+accountsservice
 acl
 adwaita-cursors
 adwaita-fonts
@@ -19,12 +20,16 @@ atkmm
 at-spi2-core
 attr
 audit
+autoconf
+automake
 avahi
 awk
 base
+base-devel
 bash
 binutils
 binutils>=2.28
+bison
 bluez
 bluez-libs
 bluez-utils
@@ -38,7 +43,9 @@ ca-certificates-utils>=20181109-3
 cairo
 cairomm
 c-ares
+cava
 cdparanoia
+cliphist
 coreutils
 cryptsetup
 curl
@@ -49,11 +56,14 @@ dbus-broker
 dbus-broker-units
 dbus-units
 dconf
+debugedit
 default-cursors
 desktop-file-utils
 device-mapper
+dgop
 diffutils
 dkms
+dms-shell-bin
 double-conversion
 duktape
 dunst
@@ -69,14 +79,17 @@ exa
 exempi
 exiv2
 expat
+fakeroot
 fastfetch
 fcft
+fd
 ffmpeg
 fftw
 file
 filesystem
 findutils
 flac
+flex
 fmt
 fontconfig
 foot
@@ -92,6 +105,7 @@ gcc-libs
 gcc-libs=15.2.1+r447+g6a64f6c3ebb8-1
 gcr-4
 gdbm
+gdbm>=1.17
 gdk-pixbuf2
 gettext
 gexiv2
@@ -113,6 +127,7 @@ gnulib-l10n
 gnupg
 gnupg>=2
 gnutls
+google-breakpad
 gperftools
 gpgme
 gpgmepp
@@ -122,6 +137,7 @@ graphene
 graphite
 grep
 grim
+groff
 grub
 gsettings-desktop-schemas
 gsettings-system-schemas
@@ -181,6 +197,7 @@ iso-codes
 jack
 jansson
 jbigkit
+jemalloc
 jq
 json-c
 jsoncpp
@@ -349,6 +366,7 @@ libthai
 libtheora
 libtiff
 libtirpc
+libtool
 libunibreak
 libunistring
 libunwind
@@ -428,7 +446,9 @@ luajit
 lv2
 lz4
 lzo
+m4
 make
+matugen
 md4c
 mdadm
 mesa
@@ -441,8 +461,10 @@ msgpack-c
 mtdev
 muparser
 nautilus
+ncurses
 nebula-hypr
 nebula-keybind-menu
+nebula-lazyvim
 nebula-luks
 nebula-oh-my-zsh
 nebula-splash
@@ -504,6 +526,7 @@ pipewire-jack
 pipewire-pulse
 pipewire-session-manager
 pixman
+pkgconf
 playerctl
 plymouth
 pnpm
@@ -531,6 +554,8 @@ qt6-multimedia-backend
 qt6-svg
 qt6-translations
 qt6-wayland
+quickshell
+quickshell-git
 rav1e
 re2
 readline
@@ -572,6 +597,7 @@ systemd-libs
 systemd-libs=259
 systemd-sysvcompat
 tar
+texinfo
 tinysparql
 tomlplusplus
 totem-plparser
@@ -596,6 +622,7 @@ unibilium
 upower
 util-linux
 util-linux-libs
+util-linux-libs=2.41.3
 v4l-utils
 vapoursynth
 vid.stab
@@ -612,6 +639,7 @@ waybar
 wayland
 wayland-protocols
 webrtc-audio-processing-1
+which
 wireplumber
 wl-clipboard
 wpa_supplicant

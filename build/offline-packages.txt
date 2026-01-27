@@ -21,6 +21,12 @@ efibootmgr
 zram-generator
 sudo
 btrfs-progs
+debugedit
+fakeroot
+autoconf
+automake
+make
+base-devel
 
 ### Other
 plymouth
@@ -97,6 +103,7 @@ qt5-wayland
 qt6-wayland
 rofi
 jq
+fd
 
 hyprland
 hyprlock
@@ -111,9 +118,11 @@ nebula-hypr
 
 nebula-keybind-menu
 nebula-oh-my-zsh
+nebula-lazyvim
 nebula-vimix-grub
 nebula-splash
 nebula-luks
+nebula-lazyvim
 
 xdg-desktop-portal
 xdg-desktop-portal-hyprland
@@ -134,3 +143,12 @@ alacritty
 # Node
 nvm
 pnpm
+
+# DankMaterialShell
+google-breakpad
+dms-shell-bin
+quickshell-git
+cava
+cliphist
+dgop
+matugen

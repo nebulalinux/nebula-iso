@@ -4,6 +4,10 @@ yay
 nebula-hypr
 nebula-keybind-menu
 nebula-oh-my-zsh
+nebula-lazyvim
 nebula-vimix-grub
 nebula-luks
 nebula-splash
+dms-shell-bin
+google-breakpad
+quickshell-git

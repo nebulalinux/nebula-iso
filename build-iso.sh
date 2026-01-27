@@ -80,6 +80,8 @@ if [[ "${NEBULA_SKIP_LOCAL_PKG_BUILD:-0}" != "1" && -x "$LOCAL_PKG_BUILDER" ]]; 
     echo "Warning: Failed to build local nebula-luks package." >&2
   "$LOCAL_PKG_BUILDER" nebula-splash || \
     echo "Warning: Failed to build local nebula-splash package." >&2
+  "$LOCAL_PKG_BUILDER" nebula-lazyvim || \
+    echo "Warning: Failed to build local nebula-lazyvim package." >&2
 fi
 install -Dm755 "$BIN_SRC" "$BIN_DEST"
 mkdir -p "$(dirname "$NEBULA_GPG_DEST")"

@@ -23,10 +23,11 @@ sudo
 btrfs-progs
 debugedit
 fakeroot
+base-devel
 autoconf
 automake
 make
-base-devel
+cmake
 
 ### Other
 plymouth
@@ -152,3 +153,4 @@ cava
 cliphist
 dgop
 matugen
+python-pywalfox

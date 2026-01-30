@@ -46,7 +46,9 @@ c-ares
 cava
 cdparanoia
 cliphist
+cmake
 coreutils
+cppdap
 cryptsetup
 curl
 dav1d
@@ -102,7 +104,7 @@ gawk
 gc
 gcc
 gcc-libs
-gcc-libs=15.2.1+r447+g6a64f6c3ebb8-1
+gcc-libs=15.2.1+r301+gf24307422d1d-1
 gcr-4
 gdbm
 gdbm>=1.17
@@ -147,9 +149,9 @@ gssdp
 gst-plugins-bad-libs
 gst-plugins-base
 gst-plugins-base-libs
-gst-plugins-base-libs=1.26.10-3
+gst-plugins-base-libs=1.26.10-1
 gstreamer
-gstreamer=1.26.10-3
+gstreamer=1.26.10-1
 gtest
 gtk3
 gtk4
@@ -332,7 +334,7 @@ libpcap
 libpciaccess
 libpgm
 libpipewire
-libpipewire=1:1.4.10-1
+libpipewire=1:1.4.9-2
 libplacebo
 libplist
 libpng
@@ -518,10 +520,10 @@ perl-mailtools
 perl-timedate
 pinentry
 pipewire
-pipewire=1:1.4.10-1
+pipewire=1:1.4.9-2
 pipewire-alsa
 pipewire-audio
-pipewire-audio=1:1.4.10-1
+pipewire-audio=1:1.4.9-2
 pipewire-jack
 pipewire-pulse
 pipewire-session-manager
@@ -532,7 +534,7 @@ plymouth
 pnpm
 polkit
 polkit-gnome
-poppler=26.01.0
+poppler=25.12.0
 poppler-glib
 popt
 portaudio
@@ -542,6 +544,7 @@ psmisc
 pugixml
 python
 python3
+python-pywalfox
 qt5-base
 qt5-declarative
 qt5-multimedia
@@ -559,6 +562,7 @@ quickshell-git
 rav1e
 re2
 readline
+rhash
 ripgrep
 rofi
 rtkit
@@ -627,7 +631,7 @@ v4l-utils
 vapoursynth
 vid.stab
 vim
-vim-runtime=9.1.2077-1
+vim-runtime=9.1.1975-1
 vmaf
 volume_key
 vulkan-icd-loader

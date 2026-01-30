@@ -11,3 +11,4 @@ nebula-splash
 dms-shell-bin
 google-breakpad
 quickshell-git
+python-pywalfox

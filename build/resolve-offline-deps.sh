@@ -42,10 +42,10 @@ if [[ -n "$RESOLVE_MIRROR_URL" ]]; then
   mkdir -p "$PACMAN_DBPATH_OVERRIDE" "$TMP_DIR/cache"
 
   MIRRORLIST_PATH="$TMP_DIR/mirrorlist-nebula"
-  echo "Server = ${RESOLVE_MIRROR_URL%/}/\$repo/os/\$arch" > "$MIRRORLIST_PATH"
+  echo "Server = ${RESOLVE_MIRROR_URL%/}/\$repo/os/\$arch" >"$MIRRORLIST_PATH"
 
   PACMAN_CONF_OVERRIDE="$TMP_DIR/pacman.conf"
-  cat > "$PACMAN_CONF_OVERRIDE" <<EOF
+  cat >"$PACMAN_CONF_OVERRIDE" <<EOF
 [options]
 Architecture = auto
 SigLevel = Required DatabaseOptional

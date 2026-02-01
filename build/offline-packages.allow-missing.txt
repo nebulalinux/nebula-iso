@@ -1,14 +1,14 @@
 # Packages that are not in the configured pacman repos (AUR/custom).
 # These are kept as-is without resolving dependencies.
 yay
-nebula-hypr
+# nebula-hypr
+caelestia-meta
 nebula-keybind-menu
 nebula-oh-my-zsh
 nebula-lazyvim
 nebula-vimix-grub
 nebula-luks
 nebula-splash
-dms-shell-bin
-google-breakpad
-quickshell-git
-python-pywalfox
+qt5ct-kde
+qt6ct-kde
+app2unit
